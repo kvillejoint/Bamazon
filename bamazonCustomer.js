@@ -90,17 +90,24 @@ function updateDatabase(choiceId,quantity){
   connection.query("UPDATE products SET ? WHERE ?",
   [
     { 
-      stock_quantities: quantity
+      stock_quantity: quantity
     },
     {
       item_id: choiceId
     }
   ],function(err, res) {
         //console.log(res);
-        //console.log(res.affectedRows);
+        connection.query("SELECT * FROM products", function(err,res){
+            if (err) throw err;
+            for (var i = 0; i < res.length; i++) {
+                console.log('Item #: '+ res[i].item_id + ' ', 'Product: ' + res[i].product_name + ' ' + 'Price: '+ res[i].price + ' ', 'Stock: ' + res[i].stock_quantity);
+            }
+            }),
         //begin search again
         startSearch();
     });   
-};
-});
-};
+
+};//close updateDatabase function
+});//closes startSearch connection
+};//closes startSearch function
+
