@@ -1,0 +1,24 @@
+{
+  "name": "bamazon-app",
+  "version": "1.0.0",
+  "description": "Online storefront application to track product sales (using MySql and Node JS to build database)",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvillejoint/Bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvillejoint/Bamazon/issues"
+  },
+  "homepage": "https://github.com/kvillejoint/Bamazon#readme",
+  "dependencies": {
+    "cli-table2": "^0.2.0",
+    "inquirer": "^3.1.1",
+    "mysql": "^2.13.0"
+  }
+}
