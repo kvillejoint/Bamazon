@@ -1,7 +1,7 @@
 # Bamazon
-Online storefront application to track product sales (using MySql and Node JS to build database)
+Online storefront application to track product sales (using MySQL and Node JS to build database)
 
-Initial MySql Database with inventory of items is created for user query
+Initial MySQL Database with inventory of items is created for user query
 
 <p align="center">
   <img src="/images/mysqldatabase.PNG" />
@@ -13,7 +13,7 @@ Using the Command Line Terminal, user is able to view product inventory and is p
   <img src="/images/bamazonintro.PNG" />
 </p>
 
-If the user selects a quantity that is more than the inventory has, the terminal will log that there is "Insufficgitient Quantity!".
+If the user selects a quantity that is more than the inventory has, the terminal will log that there is "Insufficient Quantity!”
 
 <p align="center">
   <img src="/images/insufficient-quantity.PNG" />
