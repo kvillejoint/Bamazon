@@ -80,6 +80,8 @@ function startSearch() {
                 startSearch();
             } else if(userAmount <= stockAmount) {
                 updateDatabase(itemId,newQuantity);
+                let totalPrice = userAmount * chosenProduct.price;
+                console.log('Total price for this purchase is: ' + totalPrice);
                 //startSearch();
             }else {
                 startSearch();

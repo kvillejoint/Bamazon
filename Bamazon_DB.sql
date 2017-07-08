@@ -22,7 +22,7 @@ INSERT INTO products (product_name, department_name, price, stock_quantity)
     ("curtains", "Electronics", 210.00, 75),
     ("car seat", "Children", 310.00, 15),
     ("plates", "Cookware", 32.99, 6),
-    ("tires", "Auto", 400.00, 3),
+    ("tires", "Auto", 400.00, 3),products
 	("video game", "Electronics", 69.99, 40)
 
 
